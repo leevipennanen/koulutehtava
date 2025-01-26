@@ -1,0 +1,131 @@
+/* General resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  font-size: 18px;
+}
+
+/* Etusivu */
+#home {
+  background-color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#home h2 {
+  font-size: 28px;
+}
+
+/* CV, Taidot, Portfolio, Yhteystiedot */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  #home h2 {
+    font-size: 24px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
